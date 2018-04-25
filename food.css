@@ -1,0 +1,15 @@
+.root{
+    -fx-background-image: url("place.jpg");
+}.button{
+     -fx-padding: 8 15 15 15;
+     -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+     -fx-background-radius: 8;
+     -fx-background-color: linear-gradient(#96037D, #793396);
+     -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+     -fx-font-weight: bold;
+     -fx-font-size: 1.1em;
+ }
+
+ .button:hover{
+ -fx-background-color: linear-gradient(#CFB291, #4BCF4B);
+ }

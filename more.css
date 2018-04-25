@@ -1,0 +1,41 @@
+.root{
+    -fx-background-image: url("snake.jpg");
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-font-size:20px;
+    -fx-font-family: "Zapfino";
+    -fx-text-fill: yellow;
+    -fx-effect: dropshadow(gaussian, rgba(250, 200, 20, 0.5), 1,1,1,2);
+}
+#radiobutton{
+-fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-font-size:20px;
+    -fx-font-family: "Zapfino";
+    -fx-text-fill: yellow;
+    -fx-effect: dropshadow(gaussian, rgba(250, 200, 20, 0.5), 1,1,1,2);
+}
+.label{
+-fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-font-size:20px;
+    -fx-font-family: "Zapfino";
+    -fx-text-fill: yellow;
+    -fx-effect: dropshadow(gaussian, rgba(250, 200, 20, 0.5), 1,1,1,2);
+}
+.button{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: linear-gradient(#96037D, #793396);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+.button:hover{
+-fx-background-color: linear-gradient(#CFB291, #4BCF4B);
+}
